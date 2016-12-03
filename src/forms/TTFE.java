@@ -396,24 +396,49 @@ public class TTFE extends javax.swing.JFrame {
 
         gamePanel.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         gamePanel.setPreferredSize(new java.awt.Dimension(300, 300));
+        gamePanel.setLayout(new java.awt.GridBagLayout());
 
         zerozero.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         zerozero.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         zerozero.setText("0,0");
         zerozero.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         zerozero.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(2, 2, 0, 0);
+        gamePanel.add(zerozero, gridBagConstraints);
 
         zeroone.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         zeroone.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         zeroone.setText("0,1");
         zeroone.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         zeroone.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(2, 6, 0, 0);
+        gamePanel.add(zeroone, gridBagConstraints);
 
         zerothree.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         zerothree.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         zerothree.setText("0,3");
         zerothree.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         zerothree.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(2, 6, 0, 2);
+        gamePanel.add(zerothree, gridBagConstraints);
 
         onezero.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         onezero.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -421,143 +446,182 @@ public class TTFE extends javax.swing.JFrame {
         onezero.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         onezero.setName(""); // NOI18N
         onezero.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(6, 2, 0, 0);
+        gamePanel.add(onezero, gridBagConstraints);
 
         oneone.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         oneone.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         oneone.setText("1,1");
         oneone.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         oneone.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(6, 6, 0, 0);
+        gamePanel.add(oneone, gridBagConstraints);
 
         onetwo.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         onetwo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         onetwo.setText("1,2");
         onetwo.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         onetwo.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(6, 6, 0, 0);
+        gamePanel.add(onetwo, gridBagConstraints);
 
         twothree.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         twothree.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         twothree.setText("2,3");
         twothree.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         twothree.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(6, 6, 0, 2);
+        gamePanel.add(twothree, gridBagConstraints);
 
         zerotwo.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         zerotwo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         zerotwo.setText("0,2");
         zerotwo.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         zerotwo.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 0;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(2, 6, 0, 0);
+        gamePanel.add(zerotwo, gridBagConstraints);
 
         twozero.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         twozero.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         twozero.setText("2,0");
         twozero.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         twozero.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(6, 2, 0, 0);
+        gamePanel.add(twozero, gridBagConstraints);
 
         twoone.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         twoone.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         twoone.setText("2,1");
         twoone.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         twoone.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(6, 6, 0, 0);
+        gamePanel.add(twoone, gridBagConstraints);
 
         twotwo.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         twotwo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         twotwo.setText("2,2");
         twotwo.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         twotwo.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 2;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(6, 6, 0, 0);
+        gamePanel.add(twotwo, gridBagConstraints);
 
         onethree.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         onethree.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         onethree.setText("1,3");
         onethree.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         onethree.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 1;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(6, 6, 0, 2);
+        gamePanel.add(onethree, gridBagConstraints);
 
         threezero.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         threezero.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         threezero.setText("3,0");
         threezero.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         threezero.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 0;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(6, 2, 2, 0);
+        gamePanel.add(threezero, gridBagConstraints);
 
         threeone.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         threeone.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         threeone.setText("3,1");
         threeone.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         threeone.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 1;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(6, 6, 2, 0);
+        gamePanel.add(threeone, gridBagConstraints);
 
         threetwo.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         threetwo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         threetwo.setText("3,2");
         threetwo.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         threetwo.setPreferredSize(new java.awt.Dimension(75, 75));
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 2;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(6, 6, 2, 0);
+        gamePanel.add(threetwo, gridBagConstraints);
 
         threethree.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         threethree.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         threethree.setText("3,3");
         threethree.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         threethree.setPreferredSize(new java.awt.Dimension(75, 75));
-
-        javax.swing.GroupLayout gamePanelLayout = new javax.swing.GroupLayout(gamePanel);
-        gamePanel.setLayout(gamePanelLayout);
-        gamePanelLayout.setHorizontalGroup(
-            gamePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(gamePanelLayout.createSequentialGroup()
-                .addComponent(zerozero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addComponent(zeroone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addComponent(zerotwo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addComponent(zerothree, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(gamePanelLayout.createSequentialGroup()
-                .addComponent(onezero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addComponent(oneone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addComponent(onetwo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addComponent(onethree, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(gamePanelLayout.createSequentialGroup()
-                .addComponent(twozero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addComponent(twoone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addComponent(twotwo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addComponent(twothree, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-            .addGroup(gamePanelLayout.createSequentialGroup()
-                .addComponent(threezero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addComponent(threeone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addComponent(threetwo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addComponent(threethree, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        gamePanelLayout.setVerticalGroup(
-            gamePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(gamePanelLayout.createSequentialGroup()
-                .addGroup(gamePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(zerozero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(zeroone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(zerotwo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(zerothree, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(6, 6, 6)
-                .addGroup(gamePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(onezero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(oneone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(onetwo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(onethree, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(6, 6, 6)
-                .addGroup(gamePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(twozero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(twoone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(twotwo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(twothree, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(6, 6, 6)
-                .addGroup(gamePanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(threezero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(threeone, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(threetwo, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(threethree, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-        );
+        gridBagConstraints = new java.awt.GridBagConstraints();
+        gridBagConstraints.gridx = 3;
+        gridBagConstraints.gridy = 3;
+        gridBagConstraints.ipadx = 28;
+        gridBagConstraints.ipady = 36;
+        gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
+        gridBagConstraints.insets = new java.awt.Insets(6, 6, 2, 2);
+        gamePanel.add(threethree, gridBagConstraints);
 
         newGame.setText("new game");
         newGame.addActionListener(new java.awt.event.ActionListener() {
